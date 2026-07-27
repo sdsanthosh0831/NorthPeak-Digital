@@ -1,0 +1,330 @@
+/* ================= RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+
+    .navbar{
+        display:none;
+    }
+
+
+    .menu-btn{
+        display:block;
+    }
+
+
+    .hero-container{
+
+        flex-direction:column;
+        text-align:center;
+
+    }
+
+
+    .hero-content,
+    .hero-image{
+
+        width:100%;
+
+    }
+
+
+    .hero-content h1{
+
+        font-size:40px;
+
+    }
+
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+
+    .hero-stats{
+
+        justify-content:center;
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .logo h2{
+
+        font-size:22px;
+
+    }
+
+
+    .hero-content h1{
+
+        font-size:32px;
+
+    }
+
+
+    .hero-content p{
+
+        font-size:16px;
+
+    }
+
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .hero-stats{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+
+}
+/*---------------1b---------------------*/
+/* ================= ABOUT RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+
+    .about-container{
+
+        flex-direction:column;
+
+    }
+
+
+    .about-image,
+    .about-content{
+
+        width:100%;
+        text-align:center;
+
+    }
+
+
+    .about-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    .services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .section-title{
+
+        font-size:30px;
+
+    }
+
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .feature{
+
+        justify-content:center;
+
+    }
+
+
+}
+/*---------------------1c----------------------*/
+/* ================= WHY + STATS + PROCESS RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+
+    .why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .stats-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .process-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .why-grid,
+    .stats-container,
+    .process-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .stat-box h2{
+
+        font-size:38px;
+
+    }
+
+
+}
+/*-----------------1d------------------------*/
+/* ================= PORTFOLIO + PRICING RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+
+    .portfolio-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .pricing-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .featured{
+
+        transform:none;
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .portfolio-grid,
+    .pricing-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .testimonial{
+
+        padding:25px;
+
+    }
+
+
+    .pricing-card h2{
+
+        font-size:38px;
+
+    }
+
+
+}
+/*-------------------1e----------------------*/
+/* ================= FAQ CONTACT FOOTER RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+    .footer-container{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .faq-question h3{
+
+        font-size:16px;
+
+    }
+
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+        text-align:center;
+
+    }
+
+
+    .footer-about p{
+
+        margin:auto;
+
+    }
+
+
+    .footer-bottom{
+
+        flex-direction:column;
+        text-align:center;
+
+    }
+
+
+    #topBtn{
+
+        right:20px;
+        bottom:20px;
+
+    }
+
+}
